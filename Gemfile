@@ -29,8 +29,8 @@ gem 'pry'
 #---------------------
 
 group :development, :test do
-  gem 'csv'
-  gem 'sqlite3'
+  
+  gem 'sqlite3', '~> 1.3.6'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
