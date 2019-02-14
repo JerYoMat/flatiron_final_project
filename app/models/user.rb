@@ -1,4 +1,4 @@
 class User < ApplicationRecord
-  has_many :tips 
-  has_many :lessons_through :tips 
+  has_many :tips
+  belongs_to :user_role 
 end
