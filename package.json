@@ -1,5 +1,10 @@
 {
-  "name": "flatiron_capstone_project",
+  "name": "learnHelp",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "version": "1.00",
+  "main": "index.js",
+  "repository": "https://github.com/JerYoMat/flatiron_final_project.git",
+  "author": "JerYoMat <jeremy.emata@gmail.com>",
+  "license": "MIT"
 }
