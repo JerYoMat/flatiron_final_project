@@ -16,7 +16,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bcrypt', '~> 3.1.7'
 gem 'jquery-rails'
 gem 'popper_js', '~> 1.14', '>= 1.14.5'
-gem 'bootstrap'
+gem 'bootstrap', '~> 4.3.1'
 gem 'font-awesome-rails'
 gem 'bootstrap-social-rails'
 gem 'active_model_serializers'
