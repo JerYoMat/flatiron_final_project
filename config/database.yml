@@ -24,4 +24,4 @@ production:
   <<: *default
   database: sample_app_production
   username: sample_app
-  password: <%= ENV['SAMPLE_APP_DATABASE_PASSWORD'] %>
+  password: <%= ENV['LEARN_HELP_DATABASE_PASSWORD'] %>
