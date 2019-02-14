@@ -1,5 +1,5 @@
 /* NAVBAR */
-.navbar{background:#013240;}
+.navbar{background:#013240; padding: 0;}
 .nav-item::after{content:'';display:block;width:0px;height:2px;background:#00b3e6;transition: 0.5s;}
 .nav-item:hover::after{width:100%;}
 .navbar-dark .navbar-nav .active > .nav-link, 
@@ -16,6 +16,9 @@
         display: block;
       }
     }
+.navbar-dark .navbar-nav .nav-link {
+    margin-bottom: -0.7em;
+}
 
 #login_target{
   position:absolute; 
@@ -34,14 +37,14 @@
 }
 #slash_slash{
   color: #00b3e6;
-  font-size: 1.7em;
+  font-size: 1.6em;
   margin-right: 3px;
 }
 
 #logo {
     float: left;
-    margin-right: 10px;
-    font-size: 1.5em;
+    margin-right: 1em;
+    font-size: 1.4em;
     color: white;
     letter-spacing: -1px;
     font-weight: bold;
