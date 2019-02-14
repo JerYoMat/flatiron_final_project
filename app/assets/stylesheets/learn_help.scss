@@ -3,7 +3,7 @@
 
 .navbar{background:#013240; padding: 0;}
 .nav-item::after{content:'';display:block;width:0px;height:2px;background:#00b3e6;transition: 0.5s;}
-.nav-item:hover::after{width:100%;}
+.nav-item:hover::after{width:95%;}
 .navbar-dark .navbar-nav .active > .nav-link, 
 .navbar-dark .navbar-nav .nav-link.active, 
 .navbar-dark .navbar-nav .nav-link.show,
@@ -13,6 +13,7 @@
 .nav-link{transition:0.2s;}
 .navbar-dark .navbar-nav .nav-link {
     margin-bottom: -0.7em;
+    color: white;
     .current{
       color: #00b3e6;
     }
@@ -29,8 +30,8 @@
 
 #icon_header, #account_icon {
     color: white;
-    font-size: 1.5em;
     background-color: #013240;
+    margin-bottom: -0.7em;
     border: none;
 }
 #slash_slash{
