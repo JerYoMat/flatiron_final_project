@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_02_14_002418) do
+ActiveRecord::Schema.define(version: 2019_02_14_005634) do
 
   create_table "course_orders", force: :cascade do |t|
   end
@@ -26,6 +26,31 @@ ActiveRecord::Schema.define(version: 2019_02_14_002418) do
     t.index ["course_order_id"], name: "index_lessons_on_course_order_id"
     t.index ["topic_id"], name: "index_lessons_on_topic_id"
     t.index ["unit_id"], name: "index_lessons_on_unit_id"
+  end
+
+  create_table "lessons_tips", id: false, force: :cascade do |t|
+    t.integer "lesson_id", null: false
+    t.integer "tip_id", null: false
+    t.index ["lesson_id", "tip_id"], name: "index_lessons_tips_on_lesson_id_and_tip_id"
+  end
+
+  create_table "ratings", force: :cascade do |t|
+    t.integer "user_id"
+    t.integer "score"
+    t.text "comment"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_ratings_on_user_id"
+  end
+
+  create_table "tips", force: :cascade do |t|
+    t.string "name"
+    t.text "description"
+    t.string "link"
+    t.integer "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_tips_on_user_id"
   end
 
   create_table "topics", force: :cascade do |t|
@@ -48,16 +73,23 @@ ActiveRecord::Schema.define(version: 2019_02_14_002418) do
   end
 
   create_table "user_roles", force: :cascade do |t|
+    t.string "type"
+    t.string "permissions"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "users", force: :cascade do |t|
     t.string "username"
     t.string "email"
     t.string "password_digest"
-    t.integer "role_id"
+    t.integer "user_role_id"
+    t.string "uid"
+    t.string "provider"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["role_id"], name: "index_users_on_role_id"
+    t.index ["email"], name: "index_users_on_email", unique: true
+    t.index ["user_role_id"], name: "index_users_on_user_role_id"
   end
 
 end
