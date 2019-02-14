@@ -3,7 +3,7 @@ class CreateTopics < ActiveRecord::Migration[5.2]
     create_table :topics do |t|
       t.string :name 
       t.belongs_to :unit 
-      t.belongs_to :course_order 
+      t.integer :course_order 
       t.timestamps
     end
   end

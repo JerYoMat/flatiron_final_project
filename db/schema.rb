@@ -12,18 +12,14 @@
 
 ActiveRecord::Schema.define(version: 2019_02_14_005634) do
 
-  create_table "course_orders", force: :cascade do |t|
-  end
-
   create_table "lessons", force: :cascade do |t|
     t.integer "topic_id"
-    t.integer "course_order_id"
+    t.integer "course_order"
     t.integer "unit_id"
     t.string "name"
-    t.string "type"
+    t.string "lesson_type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["course_order_id"], name: "index_lessons_on_course_order_id"
     t.index ["topic_id"], name: "index_lessons_on_topic_id"
     t.index ["unit_id"], name: "index_lessons_on_unit_id"
   end
@@ -56,20 +52,18 @@ ActiveRecord::Schema.define(version: 2019_02_14_005634) do
   create_table "topics", force: :cascade do |t|
     t.string "name"
     t.integer "unit_id"
-    t.integer "course_order_id"
+    t.integer "course_order"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["course_order_id"], name: "index_topics_on_course_order_id"
     t.index ["unit_id"], name: "index_topics_on_unit_id"
   end
 
   create_table "units", force: :cascade do |t|
     t.string "name"
     t.string "image_path"
-    t.integer "course_order_id"
+    t.integer "course_order"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["course_order_id"], name: "index_units_on_course_order_id"
   end
 
   create_table "user_roles", force: :cascade do |t|
