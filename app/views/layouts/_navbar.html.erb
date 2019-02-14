@@ -8,7 +8,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto ">
       <li class="nav-item">
-        <a class="nav-link text-light" href="<%=root_path%>">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="<%=root_path%>">Home </a>
       </li>
       <li class="nav-item active">
         <a class="nav-link text-light" href="<%= lessons_path %>">Coding Topics</a>
@@ -39,3 +39,12 @@
 
 
 
+<script>
+$(function(){
+  $('a.nav-link').each(function() {
+    if ($(this).prop('href') == window.location.href) {
+      $(this).addClass('current');
+    }
+  });
+});
+</script>
