@@ -5,12 +5,11 @@ Rails.application.routes.draw do
   get    '/login',   to: 'sessions#new'
   post   '/login',   to: 'sessions#create'
   delete '/logout',  to: 'sessions#destroy'
-  get '/auth/facebook/callback' => 'sessions#facebook_create'
-  get '/auth/github/callback' => 'sessions#github_create'
-  resources :units, :only [:show, :index]
-  resources :topics, :only [:show, :index]
+ 
+  resources :units, only: [:show, :index]
+  resources :topics, only: [:show, :index]
   resources :tips
-  resources :lessons, :only [:show, :index] do 
+  resources :lessons, only: [:show, :index] do 
     resources :tips 
   end 
   resources :users do 
