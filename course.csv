@@ -1,0 +1,844 @@
+unit,INTRO TO RUBY DEVELOPMENT
+topic,Intro to Programming
+read,Intro to Tic Tac Toe
+read,MINSWAN- Yukihuro Matsumoto
+read,What is a Program?
+lab,Hello World
+lab,Welcome to Tic Tac Toe
+topic,Debugging 
+read,Intro to IRB
+lab,Reading Error Messages
+topic,Variables
+read,About Variable Assignment
+lab,Variable Assignment Lab
+read,Ruby Data Types
+read,Array Basics
+lab,Tic Tac Toe Board
+topic,Methods
+read,Intro to Methods
+read,String Interpolation
+read,Puts and Return
+lab,Display Tic Tac Toe Board Example
+read,Methods and Arguments
+lab,"TDD, Rspec, and Learn"
+read,Default Arguments
+lab,Say Hello
+lab,Interpolation Super Power
+lab,Display Tic Tac Toe Board
+topic,Command Line Applicaitions
+read,Intro to CLI Applications
+read,CLI Applications in Ruby
+lab,gets CLI Input
+lab,Greeting CLI Lab
+lab,Tic Tac Toe Move
+topic,Logic and Conditions
+read,Truthiness
+read,Booleans
+read,About Ruby Conditionals
+lab,Rspec Fizzbuzz
+lab,Tic Tac Toe Position Taken 
+lab,Valid Tic Tac Toe Move
+topic,Loops
+read,Intro to Loops
+read,Loops
+read,While and Until Loops
+lab,While and Until Loops Lab
+lab,Tic Tac Toe Turn
+lab,Tic Tac Toe Play Loop
+topic,Iteration
+read,Iteration and Abstraction
+read,Intro to Ruby Iterators
+topic,Ruby TTT
+lab,Tic Tac Toe Current Player
+read,Nested Arrays
+read,Boolean Enumerables
+read,Search Enumerables
+lab,Tic Tac Toe Game Status
+lab,Tic Tac Toe in Ruby
+topic,Intro to OO
+read,Intro to Object Orientation
+read,Classes and Instances
+lab,Classes and Instances Lab
+topic,Instance Methods
+read,Instance Methods
+lab,Instance Methods Lab
+read,Instance Variables
+read,Object Attributes Readme
+lab,Object Attributes Lab
+topic,Object Lifecycles
+read,Object Initialization
+lab,Object Initialize Lab
+topic,Object Models
+lab,OO Barking Dog
+read,Procedural vs Object Oriented Ruby
+lab,OO Tic Tac Toe
+topic,GIT AND GITHUB
+topic,Git
+read,Intro to Version Control
+read,Git Repository Basics
+read,Git Repository Basics Quiz
+topic,Github  
+read,Git Forks and Clones
+read,Git Remotes and Github
+read,Git Remotes and Github Codealong
+topic,Collaboration
+read,Github Pull Requests
+read,Git Collaboration
+read,Git Collaboration Quiz
+read,Git Basics Quiz
+topic,HTML AND CSS
+topic,Web Fundamentals
+read,How the Web Works
+read,Site Planning
+topic,HTML Fundamentals
+read,HTML Fundamentals
+read,Setting Up a New Site
+read,Document Structure
+read,Text Formatting
+read,HTML Lists
+read,HTML Tables
+read,HTML Images
+read,HTML Links
+read,HTML Backing Up Changes
+read,HTML Validation
+read,HTML Fundamentals Quiz
+read,Dev Tools Super Power
+lab,HTML Album Cover
+lab,HTML Riyadh Blog
+lab,HTML Issue Bot 9000
+topic,Site Publishing
+read,Site Publishing to FTP
+read,Site Publishing to Github Pages
+topic,HTML5
+read,HTML Forms and iFrames
+lab,HTML Map Contact Form Code Along
+read,HTML5 Media
+lab,HTML5 Video Embed Codealong
+read,HTML5 Semantic Elements
+lab,HTML5 Semantic Elements Code Along
+read,HTML5 Quiz
+topic,CSS
+read,CSS Fundamentals
+lab,CSS Styling Code-Along
+read,CSS Fundamentals Quiz
+lab,My Little Rainbow
+lab,CSS Kitten Wheelbarrow
+lab,CSS Graffiti Override
+lab,CSS Issue Bot 9000
+lab,Deploy Your Profile Page
+topic,Page Layout
+read,Box Model
+read,Layout Types
+read,Overflow
+read,Fluid Height
+read,Display
+read,Float
+read,Clearfix
+read,Centering
+read,Column Structure
+read,Positioning
+read,Z Index
+lab,Codealong Creating Columns
+read,CSS Layout Quiz
+lab,Zetsy
+lab,ZHW Shoes Layout
+topic,Box Styles
+lab,Box Style Codealong
+topic,Responsive Layout  
+read,Building Responsive Sites
+read,Media Queries
+read,Responsive Media
+read,Responsive Type
+read,Viewport
+read,Responsive Layout Quiz
+lab,Adding Responsive Features Codealong
+lab,Animal Save
+topic,Bootstrap Framework
+read,Introduction to Bootstrap
+read,Bootstrap Codealong
+read,Bootstrap Grid System
+lab,Layout Grids Codealong
+lab,Bootstrap Navbar Codealong
+read,Bootstrap JS Plugins
+lab,Bootstrap Image Carousel Codealong
+topic,PROCEDURAL RUBY
+topic,Variables and Methods
+read,About Variable Assignment
+lab,Variable Assignment Lab
+read,String Interpolation
+read,Defining Methods
+read,Methods and Arguments
+lab,Methods and Arguments Lab
+read,Methods and Default Arguments
+lab,Methods and Default Arguments Lab
+read,Return Values
+lab,Return Values Lab
+lab,Debugging with Pry
+read,Method Scope
+lab,Method Scope Lab
+topic,Booleans
+read,Booleans and Truthiness in Ruby
+read,Boolean Operators
+read,Truthiness Code Challenge
+topic,Logic and Conditionals 
+read,If Statements
+lab,If Statements Lab
+lab,Ternary Operators and Statement Modifiers
+read,If Statements Quiz
+read,Case Statements
+read,Case Statements Quiz
+read,Logic and Conditionals Quiz
+topic,Looping
+read,Intro to Loops
+read,Looping
+lab,Looping Lab
+lab,Times
+read,Looping Quiz
+read,While and Until Loops
+lab,While and Until Loops Lab
+lab,Countdown to Midnight Lab
+topic,Arrays
+read,Intro to Arrays
+read,Using Arrays
+lab,Using Arrays Lab
+read,Arrays and Methods
+lab,Arrays and Methods Lab
+topic,Iteration
+read,Iteration and Abstraction
+read,Intro to Ruby Iterators
+lab,Square Array Lab
+lab,Badges and Schedules Lab
+lab,Deli Counter Lab
+lab,Oxford Comma Lab
+read,Collect and Return Values
+lab,Reverse Each Word Lab
+lab,Yield and Blocks
+lab,Each Lab
+lab,Return from Yield Statements
+lab,Collect Lab
+read,Boolean Enumerators
+read,Search Enumerators
+lab,My All? Lab
+lab,My Find Lab
+lab,Cartoon Collections Lab
+read,Enumerators Code Challenge
+lab,Prime? Lab
+read,Sorting
+lab,Sorting Lab
+topic,Hashes  
+lab,Introduction to Hashes
+read,Using Hashes
+lab,Symbols
+read,Hash Iteration with Each
+lab,Hash Iteration with Collect
+read,Hash Iteration Lab
+topic,Data Structures
+read,Intro to Nested Hashes
+read,Building Nested Hashes
+lab,Building Nested Hashes Lab
+lab,Nested Hashes Lab
+lab,Multitype Collections Lab
+read,Nested Hash Iteration
+lab,Iterating over Nested Hashes Codealong
+lab,Other Hashes Codealong
+lab,Hashes Manipulation Lab
+topic,Regex
+read,What's a Pattern
+read,Regex Basics
+read,Ruby Methods with Regex
+lab,Regex Lab
+topic,Object Oriented Ruby
+read,Intro to Object Orientation
+video,OO Ruby Video: Object Orientation Overview
+topic,Classes and Instances
+read,Intro to Classes and Instances
+lab,Classes and Instances Lab
+topic,Instance Methods
+read,Instance Methods
+lab,Instance Methods Lab
+topic,Object Properties
+lab,Instance Variables
+read,Object Attributes
+lab,Object Attributes Lab
+read,Object Accessors
+lab,Meowing Cat
+video,Video Review: Object Properties
+topic,Object Lifecycle 
+read,Object Initialization
+lab,Object Initialization Lab
+lab,OO Basics
+lab,OO Basics with Class Constants
+lab,OO School Domain
+topic,Object Orientation Review
+read,Intro to Object Orientation - Ruby
+topic,Object's Self
+read,Self
+lab,OO Counting Sentences
+topic,Class Variables and Methods
+read,Class Variables and Methods
+lab,Class Variables and Methods Lab
+read,Private Methods
+topic,Object Models
+read,Remembering Objects
+lab,Puppy Lab
+read,Advanced Class Methods
+lab,Advanced Class Methods Lab
+video,Video Review: Object Models
+topic,Object Labs
+lab,OO Email Parser
+lab,OO Anagram Detector
+lab,OO Cash Register
+topic,Object Relationships
+read,Intro to Object Relationships
+lab,Belongs to Object Lab
+read,Has Many Object
+lab,Has Many Object Lab
+read,Collaborating Objects
+lab,Collaborating Objects Lab
+read,Collaborating Objects Review
+lab,OO My Pets
+lab,OO Kickstarter
+lab,OO Banking
+read,Has Many Objects Through
+lab,Has Many Objects Through Lab
+topic,Object Architecture
+lab,Intro to Inheritance
+lab,Intro to Inheritance Lab
+lab,Intro to Modules
+lab,Intro to Modules Lab
+read,Super
+lab,Super Lab
+topic,Metaprogramming
+read,Mass Assignment
+read,Mass Assignment and Metaprogramming
+lab,Mass Assignment Lab
+read,Custom Errors
+lab,OO Triangle
+topic,Scraping
+lab,Gems and Bundler
+read,Scraping
+lab,Scraping Lab
+lab,Kickstarter Scraping Lab
+video,Video Review: Object Orientation and Scraping
+topic,Video Reviews of OO Ruby
+video,OO Ruby Object Orientation Video Review
+topic,Final Projects
+lab,Music Library CLI
+video,Video Review: Music Library CLI
+lab,Tic-Tac-Toe with AI
+lab,Student Scraper
+project,CLI Data Gem Project
+video,CLI Data Gem Walkthrough
+video,CLI Data Gem Walkthrough: Creating a CLI Scraper Gem
+video,Common Anti-Patterns in CLI Data Gem
+video,Student Example 1: Refactoring CLI Gem
+video,Student Example 2: Refactoring CLI Gem
+unit,
+topic,Topic Introduction
+read,What is SQL
+topic,Getting Started
+read,SQL Intro and Installation
+read,SQL Database Basics
+read,SQL Databases and Text Editors
+read,SQL Data Types
+read,"SQL Inserting, Updating, and Selecting"
+read,Basic SQL Queries
+read,SQL Aggregate Functions
+lab,SQL Aggregate Functions Lab
+lab,SQL Bear Organizer Lab
+topic,Table Relations
+read,Edgar Codd and Table Relations
+read,Table Relations
+read,SQL JOINS
+read,SQL Complex Joins
+read,SQL Join Tables
+read,Grouping and Sorting Data
+video,SQL Joins Review Lectures
+lab,SQL Crowdfunding Lab
+lab,SQL Library Lab
+unit,
+topic,ORMs
+read,Why an ORM is Useful
+lab,Pokemon Scraper Lab
+read,Mapping Ruby Classes to Database Tables
+lab,Mapping Classes to Tables Lab
+read,Mapping Database Tables to Ruby Objects
+lab,Mapping Database Rows to Objects Lab
+read,Updating Records in an ORM
+lab,Updating Records in an ORM Lab
+read,Preventing Record Duplication
+lab,ORMs Lab: Bringing It All Together
+lab,Dynamic ORMs
+lab,Dynamic ORMs with Inheritance
+lab,Dynamic ORM Lab
+video,Video Review: ORMs and SQL Joins
+video,Video Review: Building a Metaprogrammed Abstract ORM
+video,Video Review: Codealong- Building a Room Scraper and ORM
+topic,ActiveRecord
+read,ActiveRecord Mechanics
+lab,Translating from ORM to ActiveRecord
+lab,Intro to Rake
+read,Mechanics of Migrations
+lab,Writing Our Own Migrations
+lab,ActiveRecord CRUD Lab
+lab,Migrations and Active Record Lab
+lab,Advanced Finding Lab (TV Show)
+topic,Associations
+lab,ActiveRecord Associations
+lab,ActiveRecord Associations Lab
+lab,ActiveRecord Associations Lab II
+video,ActiveRecord Associations Video Review
+video,ActiveRecord Associations Video Review II
+video,Video Review: Aliasing ActiveRecord Associations
+video,Video Review: Blog CLI with ActiveRecord and Associations
+unit,
+topic,Rack and the Internet
+read,How the Internet Works
+read,Increasing Layers of Abstraction
+lab,Inspecting the Web with Rack
+lab,Dynamic Web Apps with Rack
+lab,Rack Responses Lab
+read,The HTTP Request
+lab,Rack Routes and GET Params Lab
+read,Dynamic URL Routes
+read,HTTP Status Codes
+lab,Dynamic URLs and Status Codes Lab
+video,"Video Review: How The Web Works, Pt 1"
+video,"Video Review: How the Web Works, Pt 2"
+unit,
+topic,Sinatra Basics
+read,What is Sinatra?
+read,Sinatra from Scratch
+read,Sinatra Basics
+lab,Using the Shotgun Development Server
+lab,"Sinatra ""Hello World"" Lab"
+read,Sinatra Routes
+lab,Sinatra Basic Routes Lab
+topic,MVC and Forms
+read,Intro to MVC
+lab,Sinatra MVC File Structure
+lab,Sinatra Views
+lab,Sinatra Basic Views Lab
+read,Using ERB
+lab,Sinatra Views Lab II
+video,Video Review: Forms
+topic,Forms
+lab,Intro to Capybara Tests
+lab,Dynamic Routes
+lab,Dynamic Routes Lab
+lab,HTML Forms and Params
+lab,Passing Data Between Views and Controllers
+lab,Basic Sinatra Forms Lab
+read,Layouts and Yield
+lab,Integrating Models for a Full MVC
+lab,Sinatra MVC Lab
+lab,Sinatra Basic Forms Lab
+read,Sinatra Nested Forms
+lab,Sinatra Nested Forms Lab: Pirates!
+video,Lab Review-- Sinatra Nested Forms Lab: Pirates
+lab,Sinatra Nested Forms Lab: Superheros!
+topic,Sessions
+read,Sessions and Cookies
+read,Mechanics of Sessions
+lab,Sinatra Sessions Lab
+lab,Sinatra Sessions Codealong
+topic,ActiveRecord
+lab,ActiveRecord Setup in Sinatra
+read,ActiveRecord in Sinatra
+lab,Sinatra ActiveRecord CRUD
+lab,User Authentication in Sinatra
+lab,Sinatra Sessions Lab- User Logins
+lab,Securing Passwords in Sinatra
+lab,Secure Password Lab
+video,Video Review: Authentication
+read,Sinatra RESTful Routes
+lab,Sinatra RESTful Routes Lab
+lab,Using Tux in Sinatra with ActiveRecord
+lab,ActiveRecord Associations in Sinatra
+read,ActiveRecord Associations: Join Tables
+read,Sinatra Multiple Controllers
+lab,Sinatra Complex Forms Associations
+lab,Sinatra Playlister
+lab,Sinatra NYC
+topic,ERB Outside of Sinatra
+video,"Video Review: Building a Site Generator, Part 1"
+video,"Video Review: Building a Site Generator, Part 2"
+topic,Sinatra Project Mode
+lab,Fwitter
+topic,Rails
+topic,Introduction to Rails
+read,Intro to Rails
+read,Rails Application Basics
+read,Rails MVC
+read,Rails Static Request
+lab,Rails Hello World
+video,Video Review: Intro to Rails
+topic,Rails Models Basics
+read,ActiveRecord Models and Rails
+lab,ActiveRecord Models and Rails Lab
+topic,Intro to REST
+read,Intro to Rest
+lab,RESTful Action Index Lab
+lab,Rails Dynamic Request
+lab,Rails Dynamic Request Lab
+topic,Intro to ActionView
+lab,Rails URL Helpers
+lab,Rails URL Helpers Lab
+lab,Rails form_tag
+lab,Rails form_tag lab
+topic,CRUD with Rails
+lab,Create Action
+lab,Create Action Lab
+lab,"Index, Show, New, Create Lab"
+lab,Edit/Update Action
+lab,form_for on Edit
+lab,Strong Params Basics
+read,Rails Forms Overview
+lab,form_for lab
+lab,Rails Generators
+lab,CRU Rails Lab
+lab,Resource Generator/ Routes
+lab,Rails Blog Scaffold
+topic,Validations and Forms
+read,ActiveRecord Validations
+lab,ActiveRecord Validations Lab
+read,Validations in Controller Actions
+lab,Validations in Controller Actions Lab
+read,Validations with form_tag
+lab,Validations with form_tag lab
+read,Validations with form_for
+read,Delete forms
+read,Rails Testing
+lab,CRUD with Validations
+lab,Rails Blog Associations and Validations
+topic,Rails Review: TodoMVC 1
+video,TodoMVC 1: Assets and Managing Lists
+topic,Associations and Rails
+read,Activerecord Associations Review
+lab,Join The Fun Rails Lab
+read,ActiveRecord Lifecycle Methods
+lab,Displaying Associations Data
+lab,Displaying Associations Data Lab
+read,Forms and Basic Association
+lab,Forms and Basic Associations Lab
+read,Basic Nested Forms
+lab,Basic Nested Forms Lab
+read,Displaying Has Many Through
+lab,Displaying Has Many Through Lab
+read,Has Many Through in Forms
+lab,Has Many Through in Forms Lab
+video,Video Review: Has Many Through in Forms Lab
+video,Video Review: Deep Dive into Nested Forms
+lab,Rails Blog: Complex Nested Forms Lab
+topic,Layouts and Partials
+read,Layouts And Templates in Rails
+lab,Layouts And Templates in Rails Lab
+lab,Simple Partials
+lab,Simple Partials Lab
+lab,Partial with Locals
+lab,Partial with Locals Lab
+lab,Flatiron Kitchen
+read,Rendering Collections
+lab,Rendering Collections Lab
+lab,Programmer Partials Lab
+video,Video Review: Partials and Collections
+topic,Refactoring with Helpers and Model Methods
+read,Refresher On MVC
+read,Refactoring Views With Helpers
+lab,Refactoring Views With Helpers Lab
+read,Model Class Methods
+lab,Model Class Methods Lab
+video,Video Review: Refactoring Views into Partials and Helpers
+topic,Routes and Resources
+read,Routing and Nested Resources
+lab,Routing and Nested Resources Lab
+read,Modifying Nested Resources
+lab,Modifying Nested Resources Lab
+lab,Namespaced Routes
+lab,Namespaced Routes Lab
+lab,Rails Pollywog Ranch Lab
+topic,Rails Review: TodoMVC 2
+video,TodoMVC 2: Lists have Items
+video,TodoMVC 3: Mark Items Complete
+video,TodoMVC 4: Refactoring with Partials and Helpers
+video,TodoMVC 5: Deleting Items
+topic,Authentication
+read,Cookies And Sessions
+lab,Cookies And Sessions Lab
+read,Sessions Controller
+lab,Sessions Controller Lab
+read,Login Required
+lab,Login Required Lab
+read,Using has_secure Password
+lab,Using has_secure Password Lab
+video,Video Review: Authentication
+lab,Omniauth
+video,Omniauth Review Lecture in TodoMVC
+lab,Omniauth Lab
+read,Authentication And Authorization With Gems
+read,Devise
+lab,Devise Lab
+read,Cancan
+video,Video Review: Building Authorization and Metaprogramming
+read,Devise Roles
+read,Devise and Pundit
+lab,Rails Amusement Park Lab
+topic,Rails Project Mode
+lab,Flatiron Store Project
+video,Video Review: Flatiron Store Review
+project,Rails Portfolio Project
+topic,Javascript Foundations
+topic,JavaScript Basics
+read,JavaScript Basics
+read,JavaScript Comments
+read,JavaScript Data Types
+read,JavaScript Data Types Quiz
+topic,JavaScript Logging
+lab,JavaScript Logging Lab
+topic,Functions and Scope
+read,JavaScript Variable Assignment and Declaration
+lab,JavaScript Strings Lab
+read,Intro to Functions
+lab,JavaScript Flow Control
+lab,Intro to Functions Lab
+lab,Functions Lab
+read,Variables
+lab,JavaScript Arithmetic Lab
+read,JavaScript Scope
+lab,Fix the Scope Lab
+read,Arrow Functions
+lab,Hoisting
+read,Functions and Variables Quiz
+topic,Data Structures
+lab,JavaScript Arrays
+lab,Javascript Arrays Lab
+lab,Javascript Objects
+lab,Javascript Objects Lab
+read,Javascript Objects And Arrays Quiz
+lab,Javascript Intro To Looping
+lab,Beatles Loops Lab
+lab,Deli Counter
+lab,Online Shopping Lab
+topic,Loops
+read,Javascript Callbacks
+lab,Array.forEach
+lab,forEach() Lab
+read,Exiting Loops
+lab,Exiting Loops Lab
+read,Traversing Nested Objects
+topic,The DOM
+read,Intro To The DOM
+read,The DOM
+read,The DOM is a Tree
+lab,Hide And Seek Lab
+read,Creating And Inserting Nodes
+read,Listening To Nodes
+lab,Konami Code Lab
+topic,jQuery
+lab,Modifying HTML with jQuery
+lab,Modifying HTML with jQuery Lab
+read,Document Ready
+lab,jQuery Selectors Lab
+lab,jQuery Event Listeners Lab
+read,Moving Things With Javascript
+topic,Advanced Javascript
+topic,Higher-Order Functions
+read,First Class Functions
+lab,First Class Functions Lab
+lab,Closures
+lab,Closures Lab
+lab,Custom forEach()
+read,Map
+lab,Map Lab
+lab,Reduce
+lab,Reduce Lab
+lab,Map-Reduce Lab
+topic,HTML and CSS
+read,Reintroduction to the DOM
+read,DOM Quiz
+read,Introduction to CSS
+read,CSS Quiz
+read,Introduction to Basscss
+read,HTML and CSS Lab
+topic,Templates
+read,Javascript Hand Written Templates
+read,Lodash Templates
+lab,Lodash Templates Lab
+lab,Handlebars Templates
+lab,Handlebars Templates Lab
+topic,Object-Oriented JavaScript
+read,Creating Objects
+lab,Creating Objects Lab
+read,this
+lab,this Code-Along
+lab,Fix this Lab
+lab,Inheritance Patterns
+lab,Inheritance Patterns Lab
+read,Object Methods and Classes
+lab,Object Methods Lab
+lab,Space Invaders Lab
+topic,Accessing Remote APIs with JavaScript
+lab,XHR
+lab,GitHub API With XHR Lab
+lab,Turning API Responses Into Views
+read,jQuery Ajax and Callbacks
+lab,Reading from the GitHub API with jQuery AJAX Lab
+read,REST
+read,REST Quiz
+lab,Javascript Fetch
+lab,Javascript Fetch Lab
+topic,Testing
+read,Why Test
+lab,Introduction to Mocha
+lab,Introduction to Debugging
+read,JavaScript Spies
+read,JavaScript Mocks and Stubs
+topic,Rails and Javascript
+topic,Asset Pipeline
+read,What Is The Asset Pipeline
+read,Javascript Manifests
+lab,Javascript Manifests Lab
+read,Page Specific Javascript
+read,External Javascript Libraries
+read,CSS Manifests
+lab,CSS Manifests Lab
+read,External CSS Frameworks In Rails
+read,Asset Preprocessors In Rails
+read,Images And The Asset Pipeline
+read,Bootstrap and the Asset Pipeline
+lab,Your Own JS And CSS In Rails
+lab,Bootstrap Example Rails Lab
+topic,Popular Gems
+read,How To Find Gems
+lab,Paperclip
+lab,Paperclip Lab
+lab,Kaminari
+lab,Kaminari Lab
+lab,Active Admin
+lab,Active Admin Lab
+topic,Workers
+lab,Long Running Tasks in Rails
+lab,Long Running Tasks in Rails Lab
+lab,Sidekiq
+lab,Sidekiq Lab
+topic,Consuming APIs
+read,What Is An API?
+read,APIs And Postman
+lab,Hitting APIs with Faraday
+lab,Basic APIs Lab
+lab,Using OAuth With APIs
+lab,Posting to APIs
+lab,Working with APIs
+lab,Web Service Objects
+lab,Refactoring APIs Lab
+topic,Using AJAX and Rails
+video,Video Review: Loading Comments via GET AJAX
+video,"Video Review: Rails and AJAX, Submitting a Form"
+video,Video Review: Adding Form Fields via AJAX
+video,Video Review: Handlebars and JS Prototypes
+topic,Building APIs
+read,Why Build an API?
+read,Returning String Data
+lab,Returning Strings Lab
+read,DIY JSON Serializer
+lab,DIY JSON Serializer Lab
+read,Using to_json
+lab,Using to_json Lab
+read,Using Active Model Serializer
+lab,Using Active Model Serializer Lab
+read,Receiving API POSTs
+lab,Receiving API POSTs Lab
+topic,Project Mode
+lab,jQuery Tic-Tac-Toe with a Rails API - Part 1
+lab,jQuery Tic-Tac-Toe with a Rails API - Part 2
+project,Rails App with a jQuery Front End
+unit,
+topic,What is React?
+read,Virtual DOM
+read,Declarative Programming
+read,createElement
+lab,createElement Lab
+topic,Rendering
+read,Components
+lab,Components Lab
+read,JSX
+lab,JSX Lab
+read,Babel Plugins
+read,Render Quiz
+topic,Props
+read,Props
+lab,Props Lab
+read,propTypes
+lab,propTypes Lab
+read,this.props.children
+lab,this.props.children Lab
+topic,State and Events
+read,Initial State
+lab,Initial State Lab
+read,Event System
+lab,Event System Lab
+read,Events In Detail
+lab,Events In Detail Lab
+read,Updating State
+lab,Updating State Lab
+read,Forms
+lab,Forms Lab
+lab,Props And State Lab
+topic,Mounting
+read,Component Lifecycle
+read,Component Mounting And Unmounting
+lab,Component Mounting And Unmounting Lab
+topic,Rendering and Updating
+read,Rendering
+lab,Rendering Lab
+read,Component Lifecycle Lab
+topic,Container Components
+read,Container Components
+lab,Container Components Lab
+topic,Presentational Components
+read,Presentation Components
+lab,Presentation Components Lab
+read,Props Props Props
+lab,Passing Props Lab
+unit,
+topic,Building Redux
+read,Why Redux
+read,Redux Flow
+lab,Redux Reducer
+read,Redux Dispatch
+read,Redux Initial Dispatch
+lab,Redux Dispatch Practice
+read,Redux Dispatch With Event Listeners
+read,Redux Create Store
+lab,Redux Create Store Lab
+topic,using redux with react
+lab,Integrating React And Redux Codealong
+lab,Redux Forms Codealong
+lab,Redux Index Codealong
+lab,Building Forms Lab
+read,Redux Delete Codealong
+lab,Redux Delete Lab
+lab,Crud Lab
+topic,redux library
+lab,Intro To Redux Library Codealong
+lab,Create Store Lab
+read,Map State To Props Readme
+lab,Map State To Props Lab
+read,Redux Action Creators
+read,Map Dispatch To Props Readme
+lab,Map Dispatch To Props Lab
+read,Combine Reducers
+lab,Redux Combine Reducers Lab
+lab,Cooking With Redux
+topic,react router
+read,React Introduction To React Router
+read,React Components As Routes
+lab,React Components As Routes Lab
+read,React Router Nested Routes
+read,React Router Params
+lab,React Redux Nested Routes Lab
+topic,redux and apis
+read,Redux Thunk Readme
+lab,Redux Thunk Lab
+topic,Redux Final Project
+project,React Redux Portfolio Project
